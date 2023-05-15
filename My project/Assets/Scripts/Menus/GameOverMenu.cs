@@ -1,25 +1,23 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GameOverMenu : MonoBehaviour
 {
     [SerializeField] Animator transitionAnimator;
-    // Start is called before the first frame update
-    void Start()
+    public void MainMenuButtonPressed(int sceneId = 0)
     {
-
+        transitionAnimator.SetTrigger("CoverTheScreen");
+        StartCoroutine(SceneChanger.MoveToScene(sceneId, new Vector3(0, 0, -10), transitionAnimator));
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    public void QuitGame()
+    public void QuitButtonPressed()
     {
         Application.Quit();
     }
-
+    public void TryAgainButtonPressed(int sceneId = 0)
+    {
+        transitionAnimator.SetTrigger("CoverTheScreen");
+        StartCoroutine(SceneChanger.MoveToScene(sceneId, new Vector3(0, 0, -10), transitionAnimator));
+    }
 }
