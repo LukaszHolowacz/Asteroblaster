@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AsteroidOnlyGM : MonoBehaviour
 {
@@ -8,17 +9,19 @@ public class AsteroidOnlyGM : MonoBehaviour
 
     public static int pointsCounter;
     public int roundCounter = 1;
+    
 
     bool nextRoundReady = false;
 
     [SerializeField] public AsteroidSpawner asteroidSpawner;
+    [SerializeField] Animator transitionAnimator;
 
     void Update()
     {
         //Checking if player has destroyed all asteroids
         if(existingAsteroids == 0)
         {
-            nextRoundReady = true;
+            SceneManager.LoadScene("LevelCompleteMenu");
         }
 
         //Increasing the number of asteroids and sending new wave
