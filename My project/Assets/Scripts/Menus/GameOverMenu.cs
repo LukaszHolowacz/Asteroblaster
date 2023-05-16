@@ -15,7 +15,7 @@ public class GameOverMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    public void TryAgainButtonPressed(int sceneId = 0)
+    public void TryAgainButtonPressed(int sceneId = 3)
     {
         transitionAnimator.SetTrigger("CoverTheScreen");
         StartCoroutine(SceneChanger.MoveToScene(sceneId, new Vector3(0, 0, -10), transitionAnimator));
