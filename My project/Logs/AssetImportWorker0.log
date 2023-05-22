@@ -1,11 +1,9 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'pl' Physical Memory: 8108 MB
 OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pl' Physical Memory: 7549 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
 C:\Program Files\Unity 2021.3.8f1\Editor\Unity.exe
 -adb2
 -batchMode
@@ -13,14 +11,10 @@ C:\Program Files\Unity 2021.3.8f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Desktop/Asteroblaster/My project
 C:/Users/Lukas/Desktop/Asteroblaster/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55621
-Successfully changed project path to: C:/Users/user/Desktop/Asteroblaster/My project
-C:/Users/user/Desktop/Asteroblaster/My project
 51391
 Successfully changed project path to: C:/Users/Lukas/Desktop/Asteroblaster/My project
 C:/Users/Lukas/Desktop/Asteroblaster/My project
