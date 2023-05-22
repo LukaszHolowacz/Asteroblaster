@@ -959,7 +959,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 842032098}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1217,7 +1217,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180928289}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1225,7 +1225,7 @@ RectTransform:
   - {fileID: 131388599}
   - {fileID: 745111117}
   m_Father: {fileID: 348121429}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2344,7 +2344,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1988959072326566, guid: 2ce1fb9d977e03b49a1ce0113faf945e, type: 3}
   m_PrefabInstance: {fileID: 1026342073}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &303965420
+--- !u!114 &303965426
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2357,35 +2357,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementJoystick: {fileID: 180928295}
-  playerSpeed: 9
---- !u!114 &303965421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303965419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b64c0b1dccc64d91eee52d85267bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transitionAnimator: {fileID: 0}
-  health: 3
-  maxHealth: 3
-  maxTotalHealth: 3
---- !u!114 &303965427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303965419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcf2586f5b209a045af9dff869aa39f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &332329577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2711,9 +2682,8 @@ RectTransform:
   - {fileID: 768770652}
   - {fileID: 1854469698}
   - {fileID: 2049251715}
-  - {fileID: 842032099}
-  - {fileID: 1638462081}
   - {fileID: 180928290}
+  - {fileID: 1638462081}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5127,42 +5097,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 30, y: 5}
   m_EdgeRadius: 0
---- !u!1 &842032098
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 842032099}
-  m_Layer: 0
-  m_Name: ControlButtons
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &842032099
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 842032098}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 348121429}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.3150024, y: -206}
-  m_SizeDelta: {x: 1041.37, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &853920699
 GameObject:
   m_ObjectHideFlags: 0
@@ -5342,7 +5276,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 842032098}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -5482,14 +5416,6 @@ PrefabInstance:
       propertyPath: blastClip
       value: 
       objectReference: {fileID: 8300000, guid: e667bb3d2b17602459b1c5b5bead8266, type: 3}
-    - target: {fileID: 1756452430, guid: 2ce1fb9d977e03b49a1ce0113faf945e, type: 3}
-      propertyPath: speed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756452430, guid: 2ce1fb9d977e03b49a1ce0113faf945e, type: 3}
-      propertyPath: rotationSpeed
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1461822120206566, guid: 2ce1fb9d977e03b49a1ce0113faf945e, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -5574,8 +5500,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1756452430, guid: 2ce1fb9d977e03b49a1ce0113faf945e, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ce1fb9d977e03b49a1ce0113faf945e, type: 3}
 --- !u!1 &1041526482
 GameObject:
@@ -8164,7 +8089,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 842032098}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
