@@ -213,7 +213,6 @@ GameObject:
   - component: {fileID: 1756452418}
   - component: {fileID: 1756452424}
   - component: {fileID: 1756452429}
-  - component: {fileID: 1756452430}
   m_Layer: 9
   m_Name: playerCharacterPrefab
   m_TagString: Player
@@ -341,23 +340,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439306923b403dd47816f684dc5846f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 7346219245670059049, guid: a5c9349229436084eaa29eb2276f8170, type: 3}
   fireCooldown: 2
   canFire: 1
---- !u!114 &1756452430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988959072326566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9069b852a7e79f546b984c36342f1554, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  rotationSpeed: 3
+  projectilePrefab: {fileID: 7346219245670059049, guid: a5c9349229436084eaa29eb2276f8170, type: 3}
+  blastClip: {fileID: 0}
 --- !u!1 &5625081876719840855
 GameObject:
   m_ObjectHideFlags: 0
