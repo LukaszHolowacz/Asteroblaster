@@ -7,8 +7,17 @@ using UnityEngine.SceneManagement;
 public class GameOverMenu : MonoBehaviour
 {
     [SerializeField] Animator transitionAnimator;
-    
-    
+    [SerializeField] public AudioClip menuBackgroundClip;
+    MusicManager musicManager;
+    AudioSource audioSource;
+
+    private void Awake()
+    {
+        musicManager = GameObject.Find("MusicManager").GetComponent<MusicManager>();
+        audioSource = gameObject.GetComponent<AudioSource>();
+        musicManager.FadeMusic(2.0f,0,0,menuBackgroundClip);
+
+    }
     public void MainMenuButtonPressed(int sceneId = 0)
     {
         transitionAnimator.SetTrigger("CoverTheScreen");

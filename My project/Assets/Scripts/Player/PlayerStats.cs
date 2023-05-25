@@ -6,7 +6,7 @@ public class PlayerStats : MonoBehaviour
 {
     public delegate void OnHealthChangedDelegate();
     public OnHealthChangedDelegate onHealthChangedCallback;
-    [SerializeField] Animator transitionAnimator;
+   
 
     #region Sigleton
     private static PlayerStats instance;
@@ -88,20 +88,19 @@ public class PlayerStats : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        //Killing the player if he got hit by asteroid or flied into deathzone and activating explosion animation
         if (collision.gameObject.tag == "Asteroid" || collision.gameObject.tag == "DeathZone")
         {
-            
+
             TakeDamage(1.0f);
             impact02.SetActive(true);
-            TurnOnVisibility();
-            if (Health == 0)
-            {
-                KillPlayer();
-                
-                SceneManager.LoadScene(4);
-            }
 
+        }
+        if (Health == 0)
+        {
+            TurnOffVisibility();
+            SceneManager.LoadScene(4);
+            KillPlayer();
+            
         }
     }
 
@@ -131,7 +130,6 @@ public class PlayerStats : MonoBehaviour
         impact02.SetActive(false);
     }
     
-
 
 }
 
