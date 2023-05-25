@@ -64,6 +64,8 @@ public class AsteroidController : MonoBehaviour
                 //Removing one asteroid from counter of existing asteroids
                 AsteroidOnlyGM.existingAsteroids--;
 
+
+
                 Destroy(gameObject);
             }
         }
