@@ -78,7 +78,6 @@ public class PlayerStats : MonoBehaviour
         flame = GameObject.Find("flame");
 
         impact02 = GameObject.Find("Impact02");
-        impact02.SetActive(false);
     }
 
     // Update is called once per frame
