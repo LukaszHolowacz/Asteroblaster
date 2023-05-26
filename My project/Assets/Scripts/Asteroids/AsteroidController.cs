@@ -64,7 +64,8 @@ public class AsteroidController : MonoBehaviour
                 //Removing one asteroid from counter of existing asteroids
                 AsteroidOnlyGM.existingAsteroids--;
 
-
+                PowerUp powerUp = new PowerUp();
+                powerUp.SpawnPowerUp(this.transform.position);
 
                 Destroy(gameObject);
             }
