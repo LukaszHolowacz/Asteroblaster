@@ -21,7 +21,7 @@ public class AsteroidOnlyGM : MonoBehaviour
         //Checking if player has destroyed all asteroids
         if(existingAsteroids == 0)
         {
-            SceneManager.LoadScene("LevelCompleteMenu");
+            SceneManager.LoadScene(5);
         }
 
         //Increasing the number of asteroids and sending new wave
