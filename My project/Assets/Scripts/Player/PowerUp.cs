@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
-    public GameObject powerUpPrefab; 
+    public GameObject powerUpPrefab;
 
     public void SpawnPowerUp(Vector2 position)
     {
