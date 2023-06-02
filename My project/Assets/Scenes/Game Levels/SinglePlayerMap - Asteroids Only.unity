@@ -7798,7 +7798,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1453173857}
   - component: {fileID: 1453173858}
-  - component: {fileID: 1453173859}
   m_Layer: 0
   m_Name: AsteroidSpawners
   m_TagString: Untagged
@@ -7846,19 +7845,6 @@ MonoBehaviour:
   mediumAsteroidPrefab: {fileID: 4288111556040446232, guid: a6ff43c6f37e65c4bbb2a117d0d6aeab, type: 3}
   bigAsteroidPrefab: {fileID: 4288111556040446232, guid: af7de440ab3b11a4a98f1daa0c5a541d, type: 3}
   hugeAsteroidPrefab: {fileID: 4288111556040446232, guid: e6333f058c473fe4b852cb5f92c9fd11, type: 3}
---- !u!114 &1453173859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453173856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8eedffb30fc82674295ed00b7f981ddd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powerUpPrefab: {fileID: 0}
 --- !u!1001 &1460109071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8613,7 +8599,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1580988558}
   - component: {fileID: 1580988559}
-  - component: {fileID: 1580988560}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -8651,19 +8636,6 @@ MonoBehaviour:
   roundCounter: 0
   asteroidSpawner: {fileID: 1453173858}
   transitionAnimator: {fileID: 0}
---- !u!114 &1580988560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580988557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8eedffb30fc82674295ed00b7f981ddd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powerUpPrefab: {fileID: 1988959072326566, guid: 2ce1fb9d977e03b49a1ce0113faf945e, type: 3}
 --- !u!1001 &1593720006
 PrefabInstance:
   m_ObjectHideFlags: 0
